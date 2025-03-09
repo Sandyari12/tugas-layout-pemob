@@ -24,16 +24,16 @@ class ProfilPage extends StatelessWidget {
             const CircleAvatar(
               radius: 70,
               backgroundColor: Colors.grey,
-              backgroundImage: AssetImage('assets/images/profil.jpg'),
+              backgroundImage: AssetImage('assets/images/profile.jpg'),
             ),
             const SizedBox(height: 15),
             const Text(
-              "I Ketut Resika Arthana, S.T., M.Kom",
+              "Kadek Sandyari Desy",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.blue),
               textAlign: TextAlign.center,
             ),
             const Text(
-              "http://www.rey1024.com",
+              "sandyari@student.undiksha.ac.id",
               style: TextStyle(fontSize: 14, color: Colors.blue, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
@@ -49,8 +49,8 @@ class ProfilPage extends StatelessWidget {
                 crossAxisSpacing: 20,
                 children: [
                   _buildGridItem(Icons.gps_fixed, "Singaraja", Colors.green),
-                  _buildGridItem(Icons.store, "Panji", Colors.orange),
-                  _buildGridItem(Icons.music_note, "All Genre", Colors.purple),
+                  _buildGridItem(Icons.store, "Klungkung", Colors.orange),
+                  _buildGridItem(Icons.music_note, "Pop", Colors.purple),
                   _buildGridItem(Icons.business, "Undiksha", Colors.blue),
                 ],
               ),
